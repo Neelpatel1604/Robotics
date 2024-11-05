@@ -18,7 +18,7 @@ void loop()
    Speed(15);//Stepper motor speed = 15 fast (note:speed from 1 to 15)
   Step(512);//Stepper motor forward 512 steps ---- 360 angle    
   delay(2000);// delay 2S
-   Speed(15); //Stepper motor speed = 1 slow  (note:speed from 1 to 15)
+   Speed(1); //Stepper motor speed = 1 slow  (note:speed from 1 to 15)
   Step(-512);//Stepper motor backward 512 steps ---- 360 angle    
   delay(2000);//delay 2S
 }
