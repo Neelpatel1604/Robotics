@@ -2,7 +2,7 @@ int Pin0 = 11;//definition digital 11 pins as pin to control the IN1 (ULN24L01)
 int Pin1 = 10;//definition digital 10 pins as pin to control the IN2 (ULN24L01)
 int Pin2 = 9;//definition digital 9 pins as pin to control the IN3 (ULN24L01)
 int Pin3 = 8;//definition digital 8 pins as pin to control the IN4 (ULN24L01)
-
+//Note: You can chnage almost every thing according to your set up
 int _step = 512; 
 int _speed = 1; 
 void setup()
